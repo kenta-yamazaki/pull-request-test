@@ -25,6 +25,10 @@ dependencies {
 	compile('org.projectlombok:lombok')
 	annotationProcessor('org.projectlombok:lombok')
 	compile files('libs/ajd4jp-1.4.6.2019.jar')
+	testImplementation('org.springframework.security:spring-security-test')
+	testCompile "org.junit.jupiter:junit-jupiter-api:5.2.0"
+	testCompile "org.junit.jupiter:junit-jupiter-params:5.2.0"
+	testRuntime "org.junit.jupiter:junit-jupiter-engine:5.2.0"
 }
 
 test {
